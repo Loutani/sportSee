@@ -1,6 +1,6 @@
 import { RadarChart, PolarGrid, PolarAngleAxis, Radar, ResponsiveContainer } from "recharts"
 
-function UserPerormanceChart({userPerformance}) {
+function UserPerformanceChart({userPerformance}) {
     return (
         <div className="user-chart-performance">
             <ResponsiveContainer height={270}>
@@ -14,4 +14,4 @@ function UserPerormanceChart({userPerformance}) {
     )
 }
 
-export default UserPerormanceChart
+export default UserPerformanceChart

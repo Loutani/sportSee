@@ -1,7 +1,7 @@
 import UserActivityChart from "../components/UserActivityChart/UserActivityChart";
 import UserAverageSession from "../components/UserAverageSession/UserAverageSession";
 import UserCardInformations from "../components/UserCardInformations/UserCardInformations";
-import UserPerormanceChart from "../components/UserPerormanceChart/UserPerormanceChart";
+import UserPerormanceChart from "../components/UserPerormanceChart/UserPerformanceChart";
 import UserScoreChart from "../components/UserScoreChart/UserScoreChart";
 
 function Profile() {
