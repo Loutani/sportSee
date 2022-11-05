@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Profile from "./pages/Profile";
+import './app.css';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
           <Route path="/" end element={<Profile />}/>
         </Routes>
       </BrowserRouter>
-      
+
       {/* navbar */}
 
       {/* side bar */}
