@@ -1,6 +1,10 @@
+import { useContext } from "react"
 import { RadarChart, PolarGrid, PolarAngleAxis, Radar, ResponsiveContainer } from "recharts"
+import { UserPerormanceContext } from "../../pages/Profile"
 
-function UserPerformanceChart({userPerformance}) {
+function UserPerformanceChart() {
+    const userPerformance = useContext(UserPerormanceContext);
+    
     return (
         <div className="user-chart-performance">
             <ResponsiveContainer height='100%'>

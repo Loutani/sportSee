@@ -62,7 +62,7 @@ export default class UserActivityTypeService {
                 kind: kindData[performance.kind]
             })
         })
-
+        
         return data;
     }
 }

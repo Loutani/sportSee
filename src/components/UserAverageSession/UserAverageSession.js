@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { LineChart, Tooltip, XAxis, Line, ResponsiveContainer, Legend } from "recharts"
+import { UserAverageSessionContext } from "../../pages/Profile";
 
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
@@ -17,7 +19,10 @@ const renderLegend = () => {
     );
 }
 
-function UserAverageSession({userAverageSession}) {
+function UserAverageSession() {
+    
+    const userAverageSession = useContext(UserAverageSessionContext);
+
     return (
         <div className="user-chart-average-session">
             <ResponsiveContainer height='100%'>
