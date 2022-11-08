@@ -4,7 +4,7 @@ import UserActivityChart from "../components/UserActivityChart/UserActivityChart
 import UserAverageSession from "../components/UserAverageSession/UserAverageSession";
 import UserCardInformations from "../components/UserCardInformations/UserCardInformations";
 import UserFullName from "../components/UserFullName/UserFullName";
-import UserPerormanceChart from "../components/UserPerormanceChart/UserPerformanceChart";
+import UserPerformanceChart from "../components/UserPerformanceChart/UserPerformanceChart";
 import UserScoreChart from "../components/UserScoreChart/UserScoreChart";
 import UserActivityService from "../services/UserActivityService";
 import UserActivityTypeService from "../services/UserActivityTypeService";
@@ -64,7 +64,7 @@ function Profile() {
                         </UserAverageSessionContext.Provider>
 
                         <UserPerormanceContext.Provider value={userPerformance}>
-                            <UserPerormanceChart />
+                            <UserPerformanceChart />
                         </UserPerormanceContext.Provider>
 
                         <UserScoreContext.Provider value={userScore}>
