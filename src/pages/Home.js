@@ -16,7 +16,7 @@ function Home() {
     
     return (
         <div className="home">
-            <p className="infos">Tous les utulisateurs</p>
+            <p className="infos">Tous les utilisateurs</p>
             <p className="user">- <a href="/user/12">Karl Dovineau</a></p>
             <p className="user">- <a href="/user/18">Cecilia Ratorez</a></p>
         </div>
