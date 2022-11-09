@@ -14,9 +14,10 @@ function Error() {
     showNavBar.setShow(false);
 
     return (
-        <div>
-            <h1>Error:</h1>
+        <div class="error-page">
+            <h1>ERROR 404</h1>
             <p>Something went wrong</p>
+            <p>Go to <a href="/">Home</a> page</p>
         </div>
     )
 }
