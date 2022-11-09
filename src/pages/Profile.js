@@ -25,6 +25,7 @@ export const UserPerormanceContext = React.createContext();
  * @returns {React.ReactElement}
  */
 function Profile() {
+
     //get user id from url
     const userId = useParams().id;
 
@@ -180,6 +181,16 @@ function Profile() {
             </div>
         </div>
     )
+}
+
+//no validated props for that component
+Error.propTypes = {
+
+}
+
+//no default props for that component
+Error.defaultProps = {
+    
 }
 
 //export Profile component
