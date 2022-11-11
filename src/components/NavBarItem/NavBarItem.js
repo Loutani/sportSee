@@ -17,6 +17,7 @@ function NavBarItem({children, link = '#', logo = null , classname = '', alt = '
     )
 }
 
+//set NavBarItem propTypes
 NavBarItem.propTypes = {
     children: PropType.string,
     link: PropType.string,
@@ -25,6 +26,7 @@ NavBarItem.propTypes = {
     alt: PropType.string
 }
 
+//set NavBarItem defaultProps
 NavBarItem.defaultProps = {
     link: '#',
     logo: null,
