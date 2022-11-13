@@ -27,7 +27,7 @@ export const UserPerormanceContext = React.createContext();
 function Profile() {
 
     //get user id from url
-    const userId = useParams().id;
+    const userId = parseInt(useParams().id);
 
     //state handle user name
     const [userName, setUserName] = useState('');
